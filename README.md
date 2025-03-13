@@ -1,7 +1,7 @@
 # Marketing_campaign
 Marketing Campaign Data Analysis and Modeling 
 
-# Method
+## Method
 RFM Analysis: A Goldmine for Customer Segmentation
 Understanding customer behavior and identifying the target audience are essential for successful marketing campaigns. 
 RFM (Recency, Frequency, Monetary) analysis is a powerful tool to achieve this goal.
@@ -26,7 +26,7 @@ The objective of this dataset is to predict customer responses to offers for pro
 
 Below is an overview of the variables included: 
 
-AcceptedCmp1: 1 if customer accepted the offer in the 1st campaign, 0 otherwise. 
+° AcceptedCmp1: 1 if customer accepted the offer in the 1st campaign, 0 otherwise. 
 AcceptedCmp2: 1 if customer accepted the offer in the 2nd campaign, 0 otherwise.
 AcceptedCmp3: 1 if customer accepted the offer in the 3rd campaign, 0 otherwise.
 AcceptedCmp4: 1 if customer accepted the offer in the 4th campaign, 0 otherwise.
