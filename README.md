@@ -8,11 +8,11 @@ RFM (Recency, Frequency, Monetary) analysis is a powerful tool to achieve this g
 
 In this article, we explore RFM analysis using the Online Retail II UCI dataset. We demonstrate how to segment customers based on three key attributes: 
 
-Recency: The time since the customer's last purchase. 
+- Recency: The time since the customer's last purchase. 
 
-Frequency: The number of purchases made by the customer.
+- Frequency: The number of purchases made by the customer.
 
-Monetary: The total amount spent by the customer. 
+- Monetary: The total amount spent by the customer. 
 
 Segmenting customers based on these attributes enables businesses to tailor their marketing strategies and enhance customer satisfaction.
 ## Context
