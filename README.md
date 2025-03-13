@@ -3,22 +3,21 @@ Marketing Campaign Data Analysis and Modeling
 
 # Method
 RFM Analysis: A Goldmine for Customer Segmentation
-Understanding customer behavior and identifying the target audience are essential for successful marketing campaigns. RFM (Recency, Frequency, Monetary) analysis is a powerful tool to achieve this goal.
+Understanding customer behavior and identifying the target audience are essential for successful marketing campaigns. \\ RFM (Recency, Frequency, Monetary) analysis is a powerful tool to achieve this goal.
 
-In this article, we explore RFM analysis using the Online Retail II UCI dataset. We demonstrate how to segment customers based on three key attributes: /n
-
-Recency: The time since the customer's last purchase.
-Frequency: The number of purchases made by the customer.
-Monetary: The total amount spent by the customer.
+In this article, we explore RFM analysis using the Online Retail II UCI dataset. We demonstrate how to segment customers based on three key attributes: \\
+Recency: The time since the customer's last purchase.\\
+Frequency: The number of purchases made by the customer.\\
+Monetary: The total amount spent by the customer. \\
 Segmenting customers based on these attributes enables businesses to tailor their marketing strategies and enhance customer satisfaction.
 ## Context
-A response model can provide a significant boost to the efficiency of a marketing campaign by increasing responses or reducing expenses. The objective is to predict who will respond to an offer for a product or service.
+A response model can provide a significant boost to the efficiency of a marketing campaign by increasing responses or reducing expenses.\\ The objective is to predict who will respond to an offer for a product or service.
 ## Inspiration
 The main objective is to train a predictive model which allows the company to maximize the profit of the next marketing campaign.
 ## Description
-This dataset, titled "Marketing Campaign Response Dataset", contains various variables related to customer responses and demographics. The objective of this dataset is to predict customer responses to offers for products or services in marketing campaigns. Below is an overview of the variables included:
+This dataset, titled "Marketing Campaign Response Dataset", contains various variables related to customer responses and demographics.\\ The objective of this dataset is to predict customer responses to offers for products or services in marketing campaigns. \\ Below is an overview of the variables included: \\
 
-AcceptedCmp1: 1 if customer accepted the offer in the 1st campaign, 0 otherwise.
+AcceptedCmp1: 1 if customer accepted the offer in the 1st campaign, 0 otherwise. \\
 AcceptedCmp2: 1 if customer accepted the offer in the 2nd campaign, 0 otherwise.
 AcceptedCmp3: 1 if customer accepted the offer in the 3rd campaign, 0 otherwise.
 AcceptedCmp4: 1 if customer accepted the offer in the 4th campaign, 0 otherwise.
