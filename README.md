@@ -22,7 +22,7 @@ The objective is to predict who will respond to an offer for a product or servic
 The main objective is to train a predictive model which allows the company to maximize the profit of the next marketing campaign.
 
 ## Source
-The dataset is sourced from:
+The dataset is sourced from: [Kaggle]([https://github.com/lucthienphong1120](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign))
 
-O. Parr-Rud. Business Analytics Using SAS Enterprise Guide and SAS Enterprise Miner. SAS Institute, 2014.
+
 
