@@ -20,7 +20,7 @@ A response model can provide a significant boost to the efficiency of a marketin
 The objective is to predict who will respond to an offer for a product or service.
 ## Inspiration
 The main objective is to train a predictive model which allows the company to maximize the profit of the next marketing campaign.
-
+Estimate customer lifetime value for a dataset: *CLTV = Number of Transaction * Average Profit Value*
 ## Source
 The dataset is sourced from: [Kaggle](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign)
 
