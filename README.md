@@ -1,4 +1,4 @@
-# Marketing_campaign
+# Marketing campaign
 Marketing Campaign Data Analysis and Modeling 
 
 ## Method
