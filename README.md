@@ -36,11 +36,11 @@ Cela pourrait induire une relation d’ordre inexistante et biaiser les modèles
 
 👉 Alternatives plus adaptées :
 
-Méthode	Avantage	Inconvénient
-One-Hot Encoding	Ne suppose aucun ordre, robuste	Ajoute beaucoup de colonnes (curse of dimensionality)
-Target Encoding	Encode selon la moyenne de la cible (Response)	Risque de surapprentissage si pas encodé correctement (fuite de données)
-OrdinalEncoder avec catégories définies	Permet un encodage ordonné si l’ordre est logique	Pas applicable si l’ordre n’existe pas
-Dans ton cas :
+- One-Hot Encoding:	Ne suppose aucun ordre, robuste. Ajoute beaucoup de colonnes (curse of dimensionality)
+- Target Encoding:	Encode selon la moyenne de la cible (Response). Risque de surapprentissage si pas encodé correctement (fuite de données)
+- OrdinalEncoder avec catégories définies:	Permet un encodage ordonné si l’ordre est logiqu. Pas applicable si l’ordre n’existe pas
+
+Dans cecas :
 
 Education → on peut supposer un ordre raisonnable (Basic < 2n Cycle < Master < PhD), donc OrdinalEncoder est plus juste que LabelEncoder
 
