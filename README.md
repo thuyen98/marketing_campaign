@@ -12,7 +12,7 @@ In this article, we explore RFM analysis using the Online Retail II UCI dataset.
 
 - Frequency: The number of purchases made by the customer.
 
-- Monetary: The total amount spent by the customer. 
+- Monetary: The total amount spent by the customer.
 
 Segmenting customers based on these attributes enables businesses to tailor their marketing strategies and enhance customer satisfaction.
 ## Context
@@ -25,4 +25,23 @@ Estimate customer lifetime value for a dataset: *CLTV = Number of Transaction * 
 The dataset is sourced from: [Kaggle](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign)
 
 
+# Analyse
 
+## Preprocessing
+
+Problème : LabelEncoder impose un ordre numérique arbitraire aux catégories. Exemple :
+
+Education = {“Basic” → 0, “Graduation” → 1, “Master” → 2, “PhD” → 3}
+Cela pourrait induire une relation d’ordre inexistante et biaiser les modèles, notamment les distances (KNN, SVM, etc).
+
+👉 Alternatives plus adaptées :
+
+Méthode	Avantage	Inconvénient
+One-Hot Encoding	Ne suppose aucun ordre, robuste	Ajoute beaucoup de colonnes (curse of dimensionality)
+Target Encoding	Encode selon la moyenne de la cible (Response)	Risque de surapprentissage si pas encodé correctement (fuite de données)
+OrdinalEncoder avec catégories définies	Permet un encodage ordonné si l’ordre est logique	Pas applicable si l’ordre n’existe pas
+Dans ton cas :
+
+Education → on peut supposer un ordre raisonnable (Basic < 2n Cycle < Master < PhD), donc OrdinalEncoder est plus juste que LabelEncoder
+
+Marital_Status → aucun ordre naturel → One-Hot Encoding préférable
